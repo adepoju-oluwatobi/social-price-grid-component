@@ -10,11 +10,11 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Karla', sans-serif;
-    background: hsl(218, 22%, 67%);
+    background: hsl(204, 43%, 93%);
 }
 section{
     width: 70%;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
 }
 section .title{
@@ -74,7 +74,7 @@ section.two button{
 /* --- section three ---*/
 section.three{
     margin-bottom: 10px;
-    background: hsl(179, 63%, 64%);
+    background: hsl(179, 67%, 44%);
     color: white;
     border-radius: 0 0 10px 10px;
 }
@@ -82,4 +82,49 @@ section.three .content{
     width: 30ch;
     line-height: 25px;
     opacity: 80%;
+}
+
+@media (min-width: 768px){
+    /* .container{
+        border: 1px solid black;
+    } */
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        height: 430px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.137);
+    }
+    .wrapper{
+        height: 180px;
+        display: flex;
+       
+    }
+    .wrapper.section{
+        height: 300px;
+    }
+    section.one{
+        border-radius: 10px 10px 0 0;
+        width: 600px;
+    }
+    section.one .content{
+       width: 60ch;
+    }
+    section.three{
+        border-radius: 0 0 10px 0;
+        height: 100%;
+        padding: 30px;
+        
+    }
+    section.two{
+        height: 100%;
+        padding: 30px;
+        border-radius: 0 0 0 10px;
+    }
+    .attribution { margin-top: 30px;}
+    
 }
