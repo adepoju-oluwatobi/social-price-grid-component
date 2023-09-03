@@ -1,6 +1,6 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -33,6 +33,7 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
 - I started by putting necessary tags around text provided
 - Next, I give all the elements class so as to be able to style them
 - After making sure my html structure is in place, i start with the css design using the mobile first concept
