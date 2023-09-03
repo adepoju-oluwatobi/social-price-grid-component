@@ -33,6 +33,7 @@ section .content{
 }
 section.one{
     background: white;
+    border-radius: 10px 10px 0 0;
 }
 section.one .title{
     color: hsl(179, 62%, 43%);
@@ -72,8 +73,10 @@ section.two button{
 }
 /* --- section three ---*/
 section.three{
+    margin-bottom: 10px;
     background: hsl(179, 63%, 64%);
     color: white;
+    border-radius: 0 0 10px 10px;
 }
 section.three .content{
     width: 30ch;
